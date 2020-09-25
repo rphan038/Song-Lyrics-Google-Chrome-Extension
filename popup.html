@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<!-- CDN to use the jQuery library -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      /* Background image of the popup page. I currently have a Pikachu picture */
+      body {
+        height: 500px;
+        width: 300px;
+        outline: none;
+        background-image: url(https://res.instawallpaper.com/samsung-galaxy-a01-wallpapers/download/Cute-Pikachu-Pokemon-Character-31605.jpg);
+        background-position: center-top;
+        background-attachment: fixed;
+        background-size: 300px;
+      }
+      /* Centers the "Search Again" Button */
+      .opt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      /* Centers the search bar and "Query" button */
+      .search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <!-- The "skeleton" of the popup page. All of these tags will be filled once the appropriate
+  	data has been found. -->
+  <body>
+    <div class="song-title">
+      <p></p>
+    </div>
+    <div class="opt">
+      <button id="try_again">Search Again</button>
+    </div>
+    <div class="search">
+      <br/>
+      <input type="text" id="searchq"> 
+      <br/> 
+      <button id="searchb">Query</button>
+    </div>
+    <div class="other-opts" id="options">
+    </div>
+    <main>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
