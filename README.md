@@ -1,5 +1,9 @@
 # Song-Lyrics-Google-Chrome-Extension
 
+About
+
+This is a Google Chrome Extension that you can use when listening to music on YouTube that will load lyrics into the extension's popup page when you click the extension button. There are options to search for the correct song if the startup algorithm fails.
+
 How it works
 
 1.) Interfaces with the YouTube Data v3 API with jQuery to obtain JSON data on the current song the user is listening to.
