@@ -10,4 +10,4 @@ How it works
 
 4.) Allowed user to submit their own queries to the Genius API if the startup algorithm failed to load correct lyrics.
 
-To implement this into your own Google Chrome browser, obtain a YouTube API key, a Genius API key, and insert them into line 23 and line 126 respectively in the popup.js file. Refer to the following resource by Google for a beginner's guide to developing extensions: https://developer.chrome.com/extensions/getstarted
+To implement this into your own Google Chrome browser, obtain a YouTube API key, a Genius API key, and insert them into line 23 and line 126 respectively in the popup.js file. You will also need to create an images directory in this main directory containing images for your extension button. Refer to the following resource by Google for a beginner's guide to developing extensions: https://developer.chrome.com/extensions/getstarted
